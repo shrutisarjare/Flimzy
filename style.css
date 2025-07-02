@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: 'Kanit', sans-serif;
+}
+
+.navbar {
+  background-color: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+.left-section, .right-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 24px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.search-bar input {
+  padding: 5px;
+}
+
+.search-bar select {
+  padding: 5px;
+}
+
+.quote-bar {
+  background-color: #564c1b;
+  color: #fff;
+  text-align: center;
+  padding: 8px;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  color: #000;
+  text-align: right;
+}
+
+.overlay-text h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+  margin: 0;
+}
+
+.overlay-text p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-categories {
+  display: flex;
+  justify-content: center;
+  background-color: #a9631c;
+  padding: 10px;
+  gap: 30px;
+}
+
+.nav-categories a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
